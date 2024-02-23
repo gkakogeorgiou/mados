@@ -10,6 +10,8 @@ Marine Debris and Oil Spill (MADOS) is a marine pollution dataset based on Senti
  ```bash
 conda create -n mados python=3.8.12
 
+conda activate mados
+
 conda install -c conda-forge gdal==3.3.2
 
 pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
