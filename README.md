@@ -50,7 +50,7 @@ To extract the spectal signatures of MADOS dataset (after stacking) and store th
 python utils/spectral_extraction.py --path ./data/MADOS_nearest
 ```
 
-Alternatively, you can download the `dataset.h5` file from [here](TODO).
+Alternatively, you can download the `dataset.h5` file from [here](https://drive.google.com/file/d/1BUIxcm1SLU9sqr8NE2FKJvJJPv2RLyk-/view?usp=sharing).
 
 To load the `dataset.h5`, run in a python cell the following:
 
