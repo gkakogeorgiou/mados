@@ -21,7 +21,7 @@ conda install pytables==3.7.0
 
  ## Evaluate MariNeXt
 
-To evaluate MariNeXt, place the MADOS dataset under the `data` folder, download the pretrained models (5 different runs) from here [here](https://drive.google.com/drive/folders/1VwkFp47TEvRVXHNbucBmmylfZwIUmCWx?usp=drive_link) and place them under the `marinext/trained_models` folder and then run the following:
+To evaluate MariNeXt, place the MADOS dataset under the `data` folder, download the pretrained models (5 different runs) from [here](https://drive.google.com/drive/folders/1VwkFp47TEvRVXHNbucBmmylfZwIUmCWx?usp=drive_link) and place them under the `marinext/trained_models` folder and then run the following:
 
 ```bash
 python marinext/evaluation.py --path ./data/MADOS --model_path marinext/trained_models/1
