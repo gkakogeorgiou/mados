@@ -1,6 +1,8 @@
 ![MADOS Logo](./.github/MADOS_LOGO_text.png)
 
 
+[[`paper`](https://www.sciencedirect.com/science/article/pii/S0924271624000625)][[`project page`](https://marine-pollution.github.io/)][[`dataset`](https://zenodo.org/records/10664073)]
+
 Marine Debris and Oil Spill (MADOS) is a marine pollution dataset based on Sentinel-2 remote sensing data, focusing on marine litter and oil spills. Other sea surface features that coexist with or have been suggested to be spectrally similar to them have also been considered. MADOS formulates a challenging semantic segmentation task using sparse annotations.
 
  In order to download MADOS go to https://doi.org/10.5281/zenodo.10664073.
