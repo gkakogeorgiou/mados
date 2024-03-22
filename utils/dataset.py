@@ -106,7 +106,7 @@ class MADOS(Dataset): # Extend PyTorch's Dataset class
         self.y = np.stack(self.y)
         
         # Categories from 1 to 0
-        self.y = self.y - 1
+        # self.y = self.y - 1
 
         self.impute_nan = np.tile(bands_mean, (self.X.shape[-1],self.X.shape[-2],1))
         self.mode = mode
