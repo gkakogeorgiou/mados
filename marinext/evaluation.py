@@ -165,7 +165,7 @@ def main(options):
             
             path = options['path']
             tiles = glob(os.path.join(path,'*'))
-            ROIs_split = np.genfromtxt(os.path.join(options['path'],splits_path, options['split']+'_X.txt'),dtype='str')
+            ROIs_split = np.genfromtxt(os.path.join(splits_path, options['split']+'_X.txt'),dtype='str')
 
             impute_nan = np.tile(bands_mean, (240,240,1))
 
